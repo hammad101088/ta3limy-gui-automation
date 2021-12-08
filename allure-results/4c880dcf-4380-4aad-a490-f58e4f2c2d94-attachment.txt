@@ -1,0 +1,304 @@
+
+################################################################################################################################################
+Starting Execution:	[1 out of 1] test cases in the current suite
+Test Method:		[TestRegister.TestFaq_shouldBeSuccessful]
+Test Description:	[Test register as a parent]
+################################################################################################################################################
+[ReportManager] Target URL: [https://www.ta3limy.com/] @08-12-2021 16:49:55.0106 PM
+[ReportManager] Initial URL: [data:,] @08-12-2021 16:49:55.0209 PM
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20211208-164951", Target File: "/1638974998701_TestFaq_shouldBeSuccessful.gif"]. @08-12-2021 16:49:59.0205 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.ta3limy.com/]. @08-12-2021 16:50:00.0027 PM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [تسجيل حساب]. @08-12-2021 16:50:02.0611 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles//ta3limy/register.json"]. @08-12-2021 16:50:02.0616 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles//ta3limy/register.json"]. @08-12-2021 16:50:05.0986 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles//ta3limy/register.json"]. @08-12-2021 16:50:06.0020 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles//ta3limy/register.json"]. @08-12-2021 16:50:06.0100 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles//ta3limy/register.json"]. @08-12-2021 16:50:06.0170 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles//ta3limy/register.json"]. @08-12-2021 16:50:06.0232 PM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [ولي امر]. @08-12-2021 16:50:08.0535 PM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [test]. @08-12-2021 16:50:09.0530 PM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [test]. @08-12-2021 16:50:10.0367 PM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [01004990618]. @08-12-2021 16:50:11.0318 PM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [ذكر]. @08-12-2021 16:50:12.0586 PM
+[ReportManager] org.openqa.selenium.ElementNotInteractableException:
+element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'mohamed-device', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-41-generic', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40dc9a701c556aedb12158b3e6de0204, actions {actions=[org.openqa.selenium.interactions.Sequence@3c0a4c8b]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: /tmp/.com.google.Chrome.VPEq7V}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40dc9a701c556aedb12158b3e6de0204
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:627)
+org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
+org.openqa.selenium.interactions.Actions.perform(Actions.java:573)
+com.shaft.gui.element.WebDriverElementActions.click(WebDriverElementActions.java:121)
+com.shaft.gui.element.ElementActions.click(ElementActions.java:63)
+com.shaft.gui.element.ElementActions.click(ElementActions.java:651)
+pageObjectModel.RegisterPage.register(RegisterPage.java:138)
+TestRegister.TestFaq_shouldBeSuccessful(TestRegister.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) @08-12-2021 16:50:12.0775 PM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [أقل من 25 سنة]. @08-12-2021 16:50:13.0920 PM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [testtest1]. @08-12-2021 16:50:14.0826 PM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [testtest1]. @08-12-2021 16:50:15.0727 PM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [اوافق على الشروط و الأحكام و سياسة الخصوصية]. @08-12-2021 16:50:17.0011 PM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [By.id: googleRecaptcha]. @08-12-2021 16:50:18.0258 PM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [تسجيل حساب]. @08-12-2021 16:50:19.0488 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles//ta3limy/register.json"]. @08-12-2021 16:50:19.0489 PM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [123456]. @08-12-2021 16:50:22.0174 PM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [By.id: googleRecaptcha]. @08-12-2021 16:50:23.0221 PM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [إرسال]. @08-12-2021 16:50:24.0264 PM
+[ReportManager] org.openqa.selenium.TimeoutException:
+Expected condition failed: waiting for com.shaft.gui.element.ElementActionsHelper$$Lambda$663/0x000000080116e3d8@38913b95 (tried for 25 second(s) with 1000 milliseconds interval)
+org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:63)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:37)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1468)
+com.shaft.gui.element.WebDriverElementActions.getElementsCount(WebDriverElementActions.java:559)
+com.shaft.gui.element.ElementActions.getElementsCount(ElementActions.java:261)
+com.shaft.validation.ValidationsHelper.validateElementExists(ValidationsHelper.java:149)
+com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:146)
+TestRegister.TestFaq_shouldBeSuccessful(TestRegister.java:64)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+Caused by: org.openqa.selenium.NoSuchElementException:
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@data-cy='addChild-link']"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'mohamed-device', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-41-generic', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40dc9a701c556aedb12158b3e6de0204, findElement {using=xpath, value=//a[@data-cy='addChild-link']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: /tmp/.com.google.Chrome.VPEq7V}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40dc9a701c556aedb12158b3e6de0204
+jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+com.shaft.gui.element.ElementActionsHelper.lambda$waitForElementPresence$0(ElementActionsHelper.java:66)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:63)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:37)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1468)
+com.shaft.gui.element.WebDriverElementActions.getElementsCount(WebDriverElementActions.java:559)
+com.shaft.gui.element.ElementActions.getElementsCount(ElementActions.java:261)
+com.shaft.validation.ValidationsHelper.validateElementExists(ValidationsHelper.java:149)
+com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:146)
+TestRegister.TestFaq_shouldBeSuccessful(TestRegister.java:64)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) @08-12-2021 16:50:49.0390 PM
+[ReportManager] org.openqa.selenium.TimeoutException:
+Expected condition failed: waiting for com.shaft.gui.element.ElementActionsHelper$$Lambda$663/0x000000080116e3d8@4d484eda (tried for 5 second(s) with 1000 milliseconds interval)
+org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:63)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:37)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1468)
+com.shaft.gui.element.WebDriverElementActions.getElementsCount(WebDriverElementActions.java:559)
+com.shaft.gui.element.ElementActions.getElementsCount(ElementActions.java:261)
+com.shaft.gui.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:394)
+com.shaft.gui.image.ScreenshotManager.captureScreenShot(ScreenshotManager.java:141)
+com.shaft.validation.ValidationsHelper.reportValidationState(ValidationsHelper.java:823)
+com.shaft.validation.ValidationsHelper.fail(ValidationsHelper.java:588)
+com.shaft.validation.ValidationsHelper.validateElementExists(ValidationsHelper.java:155)
+com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:146)
+TestRegister.TestFaq_shouldBeSuccessful(TestRegister.java:64)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+Caused by: org.openqa.selenium.NoSuchElementException:
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@data-cy='addChild-link']"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'mohamed-device', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-41-generic', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40dc9a701c556aedb12158b3e6de0204, findElement {using=xpath, value=//a[@data-cy='addChild-link']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: /tmp/.com.google.Chrome.VPEq7V}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40dc9a701c556aedb12158b3e6de0204
+jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+com.shaft.gui.element.ElementActionsHelper.lambda$waitForElementPresence$0(ElementActionsHelper.java:66)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:63)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:37)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1468)
+com.shaft.gui.element.WebDriverElementActions.getElementsCount(WebDriverElementActions.java:559)
+com.shaft.gui.element.ElementActions.getElementsCount(ElementActions.java:261)
+com.shaft.gui.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:394)
+com.shaft.gui.image.ScreenshotManager.captureScreenShot(ScreenshotManager.java:141)
+com.shaft.validation.ValidationsHelper.reportValidationState(ValidationsHelper.java:823)
+com.shaft.validation.ValidationsHelper.fail(ValidationsHelper.java:588)
+com.shaft.validation.ValidationsHelper.validateElementExists(ValidationsHelper.java:155)
+com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:146)
+TestRegister.TestFaq_shouldBeSuccessful(TestRegister.java:64)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) @08-12-2021 16:50:54.0516 PM
+[ReportManager] Assertion Failed: assert that "add child" button is displayed in the home page @08-12-2021 16:50:55.0121 PM
+[ReportManager] Successfully created attachment [Screenshot - 1638975054688_TestFaq_shouldBeSuccessful_ValidateElementExists_failed] @08-12-2021 16:50:55.0139 PM
+[ReportManager] Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'By.xpath: //a[@data-cy='addChild-link']'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @08-12-2021 16:50:55.0139 PM
+[ReportManager] Successfully created attachment [Animated Gif - TestFaq_shouldBeSuccessful] @08-12-2021 16:50:55.0177 P
