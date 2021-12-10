@@ -1,3 +1,0 @@
-[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles//ta3limy/register.json"]. @08-12-2021 16:49:51.0904 PM
-[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles//ta3limy/register.json]. @08-12-2021 16:49:51.0905 PM
-[ReportManager] Successfully created attachment [Test Data - JSON] @08-12-2021 16:49:51.0906 P
