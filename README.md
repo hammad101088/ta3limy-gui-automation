@@ -1,3 +1,5 @@
+[![Desktop Browsers Tests](https://github.com/hammad101088/ta3limy-gui-automation/actions/workflows/CI.yml/badge.svg)](https://github.com/hammad101088/ta3limy-gui-automation/actions/workflows/CI.yml)
+
 # Robusta Test Automation Assignment
 
 * Test [Ta3limy](https://www.ta3limy.com/) website by Implementing a test automation framework using **SHAFT_Engine** for **GUI** front-end testing.
