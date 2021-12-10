@@ -7,13 +7,13 @@
 
 ### Important notes to be known
 * Captcha
-    * According to the official documentation of selenium:
-      </br> “CAPTCHA, short for Completely Automated Public Turing test to tell Computers and Humans Apart, is explicitly designed to prevent automation, **so do not try!**
-    * [source](https://www.selenium.dev/documentation/test_practices/discouraged/captchas/)
+  * According to the official documentation of selenium:
+    </br> “CAPTCHA, short for Completely Automated Public Turing test to tell Computers and Humans Apart, is explicitly designed to prevent automation, **so do not try!** 
+  * [source](https://www.selenium.dev/documentation/test_practices/discouraged/captchas/)
 * OTP (one time password)
-    * According to the official documentation of selenium:
-      </br>Two-Factor Authentication shouldn't be automated. a solution is to be disabled in lower environments, and a **magic code** should be provided from the development team to be used in testing.
-    * [source](https://www.selenium.dev/documentation/test_practices/discouraged/two_factor_authentication/)
+  * According to the official documentation of selenium:
+    </br>Two-Factor Authentication shouldn't be automated. a solution is to be disabled in lower environments, and a **magic code** should be provided from the development team to be used in testing.
+  * [source](https://www.selenium.dev/documentation/test_practices/discouraged/two_factor_authentication/) 
 * However, **for the sake of this assignment**, I've implemented a solution for automating "Captcha". it will make the test more **flaky** as it's **not** considered to be a best practice.
 
 # Technologies

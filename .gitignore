@@ -1,3 +1,4 @@
-/target/
-/ta3limy-Automation-Task.iml
 /.idea/
+/allure-results/
+/extent-reports/
+/target/

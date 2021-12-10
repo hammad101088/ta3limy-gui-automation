@@ -1,0 +1,13 @@
+{
+  "register": {
+    "firstName": "test",
+    "lastName": "test",
+    "mobilePhone": "0100",
+    "ageRange_orderNumber": 2,
+    "password": "testtest1",
+    "confirmPassword": "testtest1"
+  },
+  "confirmMobileNumber": {
+    "confirmationNumber": 123456
+  }
+}
