@@ -1,6 +1,6 @@
 # Robusta Test Automation Assignment
 
-* Test [Ta3limy](https://www.ta3limy.com/) website by Implementing a test automation framework using **SHAFT_Engine** fot **GUI** front-end testing.
+* Test [Ta3limy](https://www.ta3limy.com/) website by Implementing a test automation framework using **SHAFT_Engine** for **GUI** front-end testing.
 * Implementing modular design by Applying the Page Object Model design pattern (POM).
 * Implementing method chaining by Applying the fluent design.
 * Externalizing test data using JSON files And Applying data driven testing (DDT).
@@ -26,7 +26,7 @@
 * [Allure Report Framework](https://docs.qameta.io/allure/) for generating test execution report.
 * [Docker](https://docs.docker.com/)
 * [Selenium Grid](https://www.selenium.dev/documentation/grid/) for remote execution.
-* [GitLab](https://docs.gitlab.com/) as a version control software.
+* [GitHub Actions](https://docs.github.com/en/actions) for continous integration.
 
 
 # Run the Test
