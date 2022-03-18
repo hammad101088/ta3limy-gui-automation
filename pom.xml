@@ -10,7 +10,7 @@
 
     <properties>
         <!-- Make sure you point to the latest in-house version: https://automatest.jfrog.io/artifactory/SHAFT_ENGINE/io/github/mohabmohie/SHAFT_ENGINE/ -->
-        <shaft_engine.version>5.4.20211202-BETA</shaft_engine.version>
+        <shaft_engine.version>6.1.20220314</shaft_engine.version>
     </properties>
     <repositories>
         <repository>
